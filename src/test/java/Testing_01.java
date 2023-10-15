@@ -33,7 +33,7 @@ public class Testing_01 extends BaseDriver {
         int priceOne = Integer.parseInt(aPOM.getFirstHalfOfThePrice().getText());
 
 
-        if (priceOne > 1) {
+        if (priceOne > 15) {
 
             getDriver().navigate().back();
             PR.clickFunction(aPOM.getFiftyToHundred());
