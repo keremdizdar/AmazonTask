@@ -1,0 +1,5 @@
+pom xml deki 12 ve 13. satırdaki 8 ifadesini 1.8 olarak değiştirdim. geçmişte bununla ilgili bazı sorunlar yaşamıştım.
+pom xml deki 15. satıra ise türkçe karakterler problem yaratmasın diye bir kod ekledim.
+Cucumber ve TestNG gibi frameworkler kullanmayıp sadece selenium ve junit ile basit ve sade bir otomasyon yaratmaya çalıştım.
+Devamlı wait kullanmamak yerine Parent classında sendkeys ve click methodları oluşturdum. Daha temiz bir görünüm sağlıyor.
+Add to Cart sonrasında site bazen üyelik istiyor bazen istemiyor. Edge ve Firefox ile de denedim durum aynı.
